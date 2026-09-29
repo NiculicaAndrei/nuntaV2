@@ -1,16 +1,19 @@
-# React + Vite
+# Wedding Management 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O aplicație web dezvoltată pentru a digitaliza și simplifica managementul așezării la mese în sălile de evenimente. Produsul elimină erorile umane, listele pe hârtie și eficientizează comunicarea dintre sală, bucătărie și clienți (miri).
 
-Currently, two official plugins are available:
+## 🚀 Video Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://drive.google.com/file/d/1ujKD6kStpmzOBTHX8JETGsssyiZMvdFm/view?usp=sharing
 
-## React Compiler
+## 🛠️ Tehnologii folosite
+*   **Frontend:** React, Tailwind CSS
+*   **Planșetă Interactivă:** Konva.js (pentru funcționalitățile Drag & Drop)
+*   **Bază de date & Live Sync:** Firebase (Firestore)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcționalități Principale
+*   **Generare Link Unic:** Managerul sălii generează o sesiune securizată, unică, ce expiră automat la 72h după eveniment.
+*   **Management Drag & Drop:** Mirii pot așeza interactiv invitații la mese, direct din browser.
+*   **Gestiune Meniuri Speciale:** Sistemul urmărește și contorizează automat meniurile standard, vegane, pentru copii sau alergiile.
+*   **Export pentru Ospătari:** Generare instantanee a schiței sălii în format PDF, pregătită pentru bucătărie și personal.
+*   **Gestiune Financiară:** Calcul automat al darului total pe parcursul evenimentului și export final într-un fișier Excel permanent.
